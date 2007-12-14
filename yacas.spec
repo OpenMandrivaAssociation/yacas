@@ -15,6 +15,7 @@ Patch0: %{name}-doc-destdir.patch.bz2
 Group: Development/Other
 URL: http://www.xs4all.nl/~apinkus/yacas.html 
 BuildRoot: %{_tmppath}/%{name}-buildroot
+BuildRequires: gsl-devel
 License: GPL
 
 %description
