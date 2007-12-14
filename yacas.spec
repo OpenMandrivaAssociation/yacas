@@ -13,7 +13,7 @@ Release: %{release}
 Source: %{name}-%{version}.tar.bz2
 Patch0: %{name}-doc-destdir.patch.bz2
 Group: Development/Other
-URL: http://www.xs4all.nl/~apinkus/yacas.html 
+URL: http://yacas.sourceforge.net/
 BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: gsl-devel
 License: GPL
