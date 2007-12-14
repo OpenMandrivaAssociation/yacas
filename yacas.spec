@@ -64,7 +64,7 @@ rm -rf $RPM_BUILD_ROOT
 %build
 %configure
 
-%make -k
+%make
 
 %install
 # # make install prefix=$RPM_BUILD_ROOT/%{_prefix}
