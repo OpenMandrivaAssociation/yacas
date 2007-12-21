@@ -13,6 +13,7 @@ Release: %{release}
 Source: %{name}-%{version}.tar.bz2
 Group: Development/Other
 URL: http://yacas.sourceforge.net/
+BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: gsl-devel
 License: GPL
 
