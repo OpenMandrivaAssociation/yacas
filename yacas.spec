@@ -1,6 +1,6 @@
 %define name yacas
-%define version 1.2.2
-%define release %mkrel 5
+%define version 1.3.2
+%define release 1
 
 %define major 0
 %define libname %mklibname %name %major
@@ -10,12 +10,9 @@ Name: %{name}
 Summary: Yacas, a computer algebra language
 Version: %{version}
 Release: %{release}
-Source: %{name}-%{version}.tar.bz2
-Patch0: %{name}-1.2.2-fix-str-fmt.patch
-Patch1: %{name}-1.2.2-fix-gcc-43.patch
+Source0: %{name}-%{version}.tar.gz
 Group: Development/Other
 URL: http://yacas.sourceforge.net/
-BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: gsl-devel
 License: GPLv2
 
@@ -28,11 +25,7 @@ which you can easily write your own symbolic manipulation algorithms.
 It supports arbitrary precision arithmetic.
 
 %prep
-rm -rf $RPM_BUILD_ROOT
-
 %setup -q
-%patch0 -p1 -b .strfmt
-%patch1 -p1 -b .gcc43
 
 %build
 %configure
@@ -41,9 +34,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %install
 %makeinstall_std
-
-%clean
-rm -rf $RPM_BUILD_ROOT 
 
 %files 
 %defattr(-,root,root,0755)
