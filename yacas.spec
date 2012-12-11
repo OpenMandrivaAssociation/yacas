@@ -41,3 +41,33 @@ It supports arbitrary precision arithmetic.
 %{_datadir}/yacas
 %{_bindir}/*
 
+
+
+%changelog
+* Fri Mar 02 2012 Alexander Khrukin <akhrukin@mandriva.org> 1.3.2-1
++ Revision: 781756
+- version update 1.3.2
+
+* Sun May 24 2009 Jérôme Brenier <incubusss@mandriva.org> 1.2.2-5mdv2010.0
++ Revision: 379337
+- fix str fmt (1 patch)
+- fix build with gcc 4.3 (1 patch)
+- fix license (GPLv2)
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - rebuild
+    - rebuild
+    - kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <blino@mandriva.org>
+    - restore BuildRoot
+
+* Fri Dec 14 2007 Thierry Vignaud <tv@mandriva.org> 1.2.2-1mdv2008.1
++ Revision: 119981
+- new release
+- running make -k is just asking for problems
+- new URL
+- buildrequires gsl-devel
+- use %%mkrel
+- import yacas
+
