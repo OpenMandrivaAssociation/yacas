@@ -7,7 +7,7 @@
 
 
 Name: %{name}
-Summary: Yacas, a computer algebra language
+Summary: , a computer algebra language
 Version: %{version}
 Release: %{release}
 Source0: %{name}-%{version}.tar.gz
