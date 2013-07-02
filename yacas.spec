@@ -1,15 +1,11 @@
-%define name yacas
-%define version 1.3.2
-%define release 1
-
 %define major 0
-%define libname %mklibname %name %major
+%define libname %mklibname %{name} %{major}
 
 
-Name: %{name}
-Summary: , a computer algebra language
-Version: %{version}
-Release: %{release}
+Name:    yacas
+Summary: A computer algebra language
+Version: 1.3.2
+Release: 2
 Source0: %{name}-%{version}.tar.gz
 Group: Development/Other
 URL: http://yacas.sourceforge.net/
