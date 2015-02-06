@@ -5,7 +5,7 @@
 Name:    yacas
 Summary: A computer algebra language
 Version: 1.3.2
-Release: 2
+Release: 3
 Source0: %{name}-%{version}.tar.gz
 Group: Development/Other
 URL: http://yacas.sourceforge.net/
