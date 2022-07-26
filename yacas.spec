@@ -16,6 +16,7 @@ BuildRequires: pkgconfig(Qt5Core)
 BuildRequires: pkgconfig(Qt5Widgets)
 BuildRequires: pkgconfig(Qt5WebEngine)
 BuildRequires: pkgconfig(Qt5WebEngineWidgets)
+BuildRequires: pkgconfig(Qt5Svg)
 License: GPLv2
 
 %description
