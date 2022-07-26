@@ -14,6 +14,7 @@ BuildRequires: qmake5
 BuildRequires: gsl-devel
 BuildRequires: pkgconfig(Qt5Core)
 BuildRequires: pkgconfig(Qt5Widgets)
+BuildRequires: pkgconfig(Qt5WebEngine)
 License: GPLv2
 
 %description
