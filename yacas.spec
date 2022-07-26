@@ -10,6 +10,7 @@ Source0: https://github.com/grzegorzmazur/yacas/archive/v%{version}/%{name}-%{ve
 Group: Development/Other
 URL: http://yacas.sourceforge.net/
 BuildRequires: cmake
+BuildRequires: qmake5
 BuildRequires: gsl-devel
 BuildRequires: pkgconfig(Qt5Core)
 License: GPLv2
