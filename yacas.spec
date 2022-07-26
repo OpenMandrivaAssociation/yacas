@@ -4,9 +4,9 @@
 
 Name:    yacas
 Summary: A computer algebra language
-Version: 1.3.2
-Release: 3
-Source0: %{name}-%{version}.tar.gz
+Version: 1.9.1
+Release: 1
+Source0: https://github.com/grzegorzmazur/yacas/archive/v%{version}/%{name}-%{version}.tar.gz
 Group: Development/Other
 URL: http://yacas.sourceforge.net/
 BuildRequires: gsl-devel
@@ -26,10 +26,10 @@ It supports arbitrary precision arithmetic.
 %build
 %configure
 
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files 
 %defattr(-,root,root,0755)
