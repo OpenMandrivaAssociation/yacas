@@ -11,6 +11,7 @@ Group: Development/Other
 URL: http://yacas.sourceforge.net/
 BuildRequires: cmake
 BuildRequires: gsl-devel
+BuildRequires: pkgconfig(Qt5Core)
 License: GPLv2
 
 %description
