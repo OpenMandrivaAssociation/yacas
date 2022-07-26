@@ -13,6 +13,7 @@ BuildRequires: cmake
 BuildRequires: qmake5
 BuildRequires: gsl-devel
 BuildRequires: pkgconfig(Qt5Core)
+BuildRequires: pkgconfig(Qt5Widgets)
 License: GPLv2
 
 %description
