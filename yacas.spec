@@ -9,6 +9,7 @@ Release: 1
 Source0: https://github.com/grzegorzmazur/yacas/archive/v%{version}/%{name}-%{version}.tar.gz
 Group: Development/Other
 URL: http://yacas.sourceforge.net/
+BuildRequires: cmake
 BuildRequires: gsl-devel
 License: GPLv2
 
@@ -21,15 +22,15 @@ which you can easily write your own symbolic manipulation algorithms.
 It supports arbitrary precision arithmetic.
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
-%configure
+%cmake
 
 %make_build
 
 %install
-%make_install
+%make_install -C build
 
 %files 
 %defattr(-,root,root,0755)
