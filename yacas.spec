@@ -15,6 +15,7 @@ BuildRequires: gsl-devel
 BuildRequires: pkgconfig(Qt5Core)
 BuildRequires: pkgconfig(Qt5Widgets)
 BuildRequires: pkgconfig(Qt5WebEngine)
+BuildRequires: pkgconfig(Qt5WebEngineWidgets)
 License: GPLv2
 
 %description
