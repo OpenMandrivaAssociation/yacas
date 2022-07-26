@@ -42,7 +42,7 @@ It supports arbitrary precision arithmetic.
 %defattr(-,root,root,0755)
 %doc docs/*
 %{_datadir}/yacas
-%{_iconsdir}/*x*/apps/yacas-gui.png
+%{_iconsdir}/hicolor/*x*/apps/yacas-gui.png
 %{_datadir}/pixmaps/yacas-gui.png
 %{_bindir}/*
 %{_includedir}/yacas/
