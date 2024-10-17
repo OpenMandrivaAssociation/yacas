@@ -8,7 +8,7 @@ Version: 1.9.1
 Release: 1
 Source0: https://github.com/grzegorzmazur/yacas/archive/v%{version}/%{name}-%{version}.tar.gz
 Group: Development/Other
-URL: http://yacas.sourceforge.net/
+URL: https://yacas.sourceforge.net/
 BuildRequires: cmake
 BuildRequires: qmake5
 BuildRequires: gsl-devel
